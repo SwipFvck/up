@@ -1,0 +1,66 @@
+{
+    "name": "Fvckers-Wa",
+    "version": "X",
+    "description": "Yo Nda Tau Tanyako Tanya Saya",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "Swiper-Fvck",
+        "Fvckers"
+    ],
+    "author": "SwiperFvck",
+    "license": "MIT",
+    "dependencies": {
+        "@adiwajshing/keyed-db": "^0.2.4",
+        "@colors/colors": "^1.5.0",
+        "@ffmpeg-installer/ffmpeg": "^1.1.0",
+        "@hapi/boom": "^10.0.0",
+        "@kyuu2nd/baileys": "npm:baileys@^7.0.0-rc10",
+        "axios": "^1.15.1",
+        "baileys_helper": "^1.0.6",
+        "chalk": "^4.1.2",
+        "cheerio": "latest",
+        "child_process": "^1.0.2",
+        "crypto": "^1.0.1",
+        "crypto-js": "^4.2.0",
+        "fflate": "^0.8.2",
+        "file-type": "^16.5.3",
+        "fluent-ffmpeg": "^2.1.3",
+        "form-data": "^4.0.0",
+        "fs-extra": "^10.0.0",
+        "hpagent": "latest",
+        "https": "latest",
+        "human-readable": "^0.2.1",
+        "jimp": "0.16.1",
+        "moment-timezone": "^0.5.34",
+        "node-fetch": "^3.3.2",
+        "node-webpmux": "^3.1.0",
+        "nodemailer": "latest",
+        "os": "^0.1.2",
+        "path": "^0.12.7",
+        "performance-now": "^2.1.0",
+        "pino": "^7.0.5",
+        "qrcode-terminal": "^0.12.0",
+        "readline": "^1.3.0",
+        "request": "^2.88.2",
+        "sharp": "^0.32.2",
+        "stream": "^0.0.3",
+        "text-to-image": "latest",
+        "uglify-js": "^3.19.3",
+        "util": "^0.12.4",
+        "vm": "latest",
+        "webp-converter": "^2.3.3",
+        "yt-search": "^2.10.2"
+    },
+    "overrides": {
+        "jimp": "0.16.1",
+        "libsignal": "github:kagenouReal/zsignal",
+        "@kagenoureal/zbail": {
+            "jimp": "0.16.1",
+            "libsignal": "github:kagenouReal/zsignal"
+        }
+    }
+}
